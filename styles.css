@@ -1,0 +1,129 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End CSS Reset code */
+
+html
+	{
+	background:#F2F2F2;
+	}
+
+image
+	{
+	margin: 5px;
+	padding: 5px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 5px;
+	}
+
+body
+	{
+	font-family: "Arvo"; line-height: 150%; font-size: 1em;
+	background:#ffffff;
+	width:80%;
+	}
+
+p 
+	{
+	line-height: 150%; font-size: 0.8em;
+	}
+
+header
+	{
+	padding: 10px;
+	background:#FFEEB1;
+	height:40px;
+	text-align: right;
+	}
+
+nav
+	{
+	padding: 30px;
+	background:#F2F2F2;
+	text-align: right
+	}
+
+aside
+	{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 30px;
+	background-color: #F2C43C;
+	width:150px;
+	height: 240px;
+	float:left;
+	position: fixed
+	}
+
+article
+	{
+	padding: 30px;
+	margin-left: 280px;
+	margin-right: 50px;
+	background:#ffffff;
+	}
+
+ul	
+	{
+	list-style:"circle";
+	}
+
+p 	{
+	font-family: inherit; 
+	
+	}
+
+footer
+	{
+	font-size: 0.6em;
+	padding: 20px;
+	margin-left: 280px;
+	margin-right: 50px;
+	background:#F2F2F2;
+	clear:both;
+	}
+
+	div.img {
+    margin:15px;
+    border: px solid #ccc;
+    float: left;
+    width: 150px;
+}
+
+	div.img:hover {
+    border: 1px solid #777;
+}
+
+	div.img img {
+    width: 100%;
+    height: auto;
+}
+
+	div.desc {
+    padding: 15px;
+    text-align: center;
+}
